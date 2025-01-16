@@ -27,72 +27,135 @@
 .btn-primary{
   border-radius: 8px;
   background: rgb(255, 144, 14);
-color: rgb(255, 255, 255);
-font-size: 1.25rem;
-font-weight: 600;
-line-height: 1.4rem;
-border: none;
-padding: 20px 25px;
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  border: none;
+  padding: 20px 25px;
 }
 
+main{
+  margin: 0 auto;
+  width: 80%;
+}
 
+main> section{
+  margin-top: 130px;
+}
 
+.span-color{
+  color: rgb(255, 144, 14);
+}
 
 /*Navbar section*/
 .navbar{
- justify-content: space-between;
- align-items: center;
-}
-.nav-iteam{
-  margin-right: 30px;
-  list-style-type: none;
-}
-
-.nav-link{
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.brand{
-color: rgb(19, 19, 19);
-font-size: 3rem;
-font-weight: 700;
-line-height: 3.3rem;
-}
-
+  justify-content: space-between;
+  align-items: center;
+ }
+ .nav-iteam{
+   margin-right: 30px;
+   list-style-type: none;
+ }
+ 
+ .nav-link{
+   text-decoration: none;
+   font-weight: 500;
+ }
+ 
+ .brand{
+ color: rgb(19, 19, 19);
+ font-size: 3rem;
+ font-weight: 700;
+ line-height: 3.3rem;
+ }
+ 
 /*Banner section*/
 .banner-text{
-max-width: 850px;
-margin: 0 auto;
-text-align: center;
-margin-bottom: 50px;
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  }
+  
+  .banner-title{
+  color: rgb(19, 19, 19);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  }
+  
+  .banner-description{
+  color: rgb(114, 114, 114);
+  font-size:1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  }
+  
+  .banner-pic{
+    width: 80%;
+    margin: auto;
+  }
+  .banner-image{
+    width: 100%;
+  }
+
+/*Quick feature section*/
+.quick-feature {
+  align-items: center;
+  gap: 130px;
+
+}
+.quick-feature-image{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 
-.banner-title{
-color: rgb(19, 19, 19);
-font-size: 4rem;
-font-weight: 700;
-line-height: 4.6rem;
+.quick-feature-text{
+max-width: 530px;
 }
 
-.banner-description{
+.quick-feature-text-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.31rem;
+  letter-spacing: 0%;
+  text-align: left; 
+}
+
+.quick-feature-text-title .highlight{
+  color: rgb(19, 19, 19);
+}
+
+.hight-light{
+Font-weight: 500;
 color: rgb(114, 114, 114);
-font-size:1rem;
-font-weight: 400;
-line-height: 1.6rem;
+
+}
+.quick-feature-text-description{
+  color: rgb(114, 114, 114);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
 }
 
-.banner-pic{
-  width: 80%;
-  margin: auto;
-}
-.banner-image{
-  width: 100%;
-}
+
+
+
+
+
+
+
 
 /*Header section responsive*/
 @media screen and (max-width:576px) {
-  .navbar , .nav-links{
+  .navbar , .nav-links, .quick-feature{
 flex-direction: column;
+  }
+
+  .quick-feature-image{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
