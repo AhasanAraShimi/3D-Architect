@@ -242,8 +242,26 @@ text-align: center;
   margin: 30px;
 }
 
+/*sponsers*/
+.sponser-text{
+ max-width: 540px;
+ margin: auto;
+ text-align: center;
+}
+.sponser-text h1{
+  text-align: center;
+}
+.sponser-icons{
+  margin-block: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  
+}
 
-
+.sponser-icons img {
+  filter: grayscale(100%);
+}
 
 
 
@@ -280,6 +298,12 @@ flex-direction: column;
       margin: 30px auto;
      
     }
+    .sponser-icons{
+      margin-block: 60px;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 40px;
+      
+    }
 }
 
 
@@ -288,6 +312,10 @@ flex-direction: column;
 @media screen and (min-width:576px) and (max-width:992px){
   .quick-feature{
     flex-direction: column;
+  }
+
+  .quick-feature-image{
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .love-enjoy-text{
@@ -309,8 +337,16 @@ flex-direction: column;
 
     .fact-container{
       grid-template-columns:repeat(2, 1fr) ;
-     
     }
+
+    .sponser-icons{
+      margin-block: 60px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      
+    }
+
+
 }
 
 
