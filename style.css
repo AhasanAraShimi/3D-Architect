@@ -150,6 +150,7 @@ color: rgb(114, 114, 114);
 .love-enjoy h1{
  padding-left: 25px;
 }
+
 .sub-feature h3{
   color: rgb(19, 19, 19);
 font-size: 1.25rem;
@@ -271,7 +272,18 @@ text-align: center;
 }
 
 
-
+footer{
+  width: 80%;
+  border-radius: 8px;
+  background: rgb(255, 244, 231);
+color: rgb(66, 66, 66);
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.4rem;
+text-align: center;
+padding-block:39px ;
+margin: auto;
+}
 
 
 /*Smaller Devices responsive*/
