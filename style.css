@@ -311,7 +311,13 @@ flex-direction: column;
     }
     .love-enjoy-text{
       width: 90%;
+      margin-inline:10px;
   
+    }
+
+    .sub-feature{
+      margin-inline:0 ;
+      padding-inline: 5px;
     }
 }
 
