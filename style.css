@@ -48,6 +48,15 @@ main> section{
   color: rgb(255, 144, 14);
 }
 
+.para-description{
+  color: rgb(114, 114, 114);
+  font-size:1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+
+
 /*Navbar section*/
 .navbar{
   justify-content: space-between;
@@ -92,13 +101,6 @@ main> section{
   line-height: 4.6rem;
   }
   
-  .banner-description{
-  color: rgb(114, 114, 114);
-  font-size:1rem;
-  font-weight: 400;
-  line-height: 1.6rem;
-  }
-  
   .banner-pic{
     width: 80%;
     margin: auto;
@@ -112,12 +114,14 @@ main> section{
 .quick-feature {
   align-items: center;
   gap: 130px;
-
 }
+
 .quick-feature-image{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  max-width: 640px;
+
 }
 
 .quick-feature-text{
@@ -134,19 +138,64 @@ Font-weight: 500;
 color: rgb(114, 114, 114);
 
 }
-.quick-feature-text-description{
-  color: rgb(114, 114, 114);
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.6;
-  text-align: left;
-}
 
 /*Love & Enjoy section*/
+.love-enjoy{
+  gap: 110px;
+}
+.sub-feature h3{
+  color: rgb(19, 19, 19);
+font-size: 1.25rem;
+font-weight: 600;
+line-height: 1.4rem;
+letter-spacing: 0%;
+text-align: left;
 
+}
 
+.love-enjoy-text{
+  max-width: 40%;
+}
 
+.sub-feature{
+  display: grid;
+  grid-template-columns: repeat(1 , auto);
+  gap: 30px;
+  padding: 20px;
+}
 
+.sub-feature div{
+border-radius: 8px;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+
+.love-enjoy-image{
+width: 50%;
+background-image:url(images/architect.png) ;
+
+}
+
+.love-enjoy-image div p{
+text-align: center;
+}
+.love-enjoy-image div span{
+  Font-weight: 700;
+  Font-size: 4rem;
+  line-height: 4.3rem;
+ 
+}
+.love-enjoy-image div{
+position: absolute;
+width: 250px;
+height: 150px;
+left: 720px;
+top: 3030px;
+bottom: -3104px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 
 
@@ -156,9 +205,23 @@ color: rgb(114, 114, 114);
 flex-direction: column;
   }
 
-  .quick-feature-image{
-    grid-template-columns: repeat(1, 1fr);
+  .love-enjoy-text{
+    max-width: 90%;
+    padding: 10px;
   }
+  .love-enjoy-image div{
+   display: none;
+  
+    }  
+    .sub-feature{
+      display: grid;
+      row-gap: 10px;
+      padding: 0;
+    }
+    .love-enjoy-image{
+      display: none;
+      width: 0;
+    }
 }
 
 
