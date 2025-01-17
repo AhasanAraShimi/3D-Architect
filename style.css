@@ -309,6 +309,10 @@ flex-direction: column;
     footer{
       width: 100%;
     }
+    .love-enjoy-text{
+      width: 90%;
+  
+    }
 }
 
 
@@ -341,6 +345,10 @@ flex-direction: column;
     }
     footer{
     width: 100%;
+    }
+    .love-enjoy-text{
+      width: 90%;
+  
     }
 
 
