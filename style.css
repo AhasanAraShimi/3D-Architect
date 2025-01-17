@@ -293,7 +293,7 @@ flex-direction: column;
 
   #batch{
     margin-top: 0;
-    margin-left: 50px;
+    margin-left: 0;
   }
     .fact-container{
       grid-template-columns:repeat(1, 1fr) ;
@@ -317,7 +317,7 @@ flex-direction: column;
 
     .sub-feature{
       margin-inline:0 ;
-      padding-inline: 5px;
+      padding-inline: 0;
     }
 }
 
@@ -332,7 +332,7 @@ flex-direction: column;
 
   #batch{
     margin: 0 auto;
-    margin-left: 0px;
+    margin-left: 210px;
   }
   .quick-feature-image{
     grid-template-columns: repeat(1, 1fr);
