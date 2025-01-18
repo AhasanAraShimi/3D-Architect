@@ -293,7 +293,10 @@ flex-direction: column;
 
   #batch{
     margin-top: 0;
-    margin-left: -0;
+    margin-right: 0;
+    margin-left: 3px;
+  
+
   }
     .fact-container{
       grid-template-columns:repeat(1, 1fr) ;
