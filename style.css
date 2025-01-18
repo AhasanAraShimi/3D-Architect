@@ -292,9 +292,9 @@ flex-direction: column;
   }
 
   #batch{
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
+  
+    margin: 0 auto;
+    width: 90%;
   }
     .fact-container{
       grid-template-columns:repeat(1, 1fr) ;
