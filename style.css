@@ -290,10 +290,12 @@ flex-direction: column;
   .quick-feature-image{
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .love-enjoy-image{
+    width: 100%;
+  }
   #batch{
     margin-top: 0;
-    margin-left: 1px;
+    margin-left: 0.7px;
   }
     .fact-container{
       grid-template-columns:repeat(1, 1fr) ;
